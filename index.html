@@ -3,13 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="A simple structured website using semantic HTML.">
-    <meta name="keywords" content="HTML, structure, portfolio, projects, contact">
+    <meta name="description" content="Frontend Developer CV using HTML layout only.">
+    <meta name="keywords" content="HTML, Portfolio, Frontend Developer">
     <meta name="author" content="Your Name">
-    <title>Homepage</title>
+    <meta property="og:title" content="Frontend Developer Portfolio">
+    <meta property="og:description" content="An HTML-based portfolio showcasing projects and work experience.">
+    <meta property="og:url" content="https://your-portfolio-link.com">
+    <meta property="og:type" content="website">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <title>Frontend Developer Portfolio</title>
 </head>
 <body>
+    <!-- Header Section -->
     <header>
+        <div class="logo">
+            <img src="logo-placeholder.png" alt="Your Name Logo" />
+        </div>
         <nav>
             <ul>
                 <li><a href="index.html">Home</a></li>
@@ -20,13 +29,71 @@
         </nav>
     </header>
 
+    <!-- Main Section -->
     <main>
-        <h1>Welcome to My Simple Website</h1>
-        <!-- Content specific to the page goes here -->
+        <section class="introduction">
+            <h1>Frontend Developer</h1>
+            <p>HTML only with proper layout, no styling</p>
+        </section>
+
+        <!-- Projects and Work Experience Section -->
+        <section class="projects-work">
+            <div class="projects">
+                <h2>Projects</h2>
+                <ul>
+                    <li>HTML Only Portfolio</li>
+                    <li>Calculator</li>
+                    <li>Quiz App</li>
+                    <li>Countdown Timer</li>
+                    <li>Product Upcoming Page</li>
+                </ul>
+            </div>
+            <div class="work-experience">
+                <h2>Work Experience</h2>
+                <p><strong>roadmap.sh</strong><br>Solving all the frontend projects<br>
+                <a href="#">Visit my Profile</a></p>
+                <p><strong>OpenSource Work</strong><br>Contributed to 50 projects. Created my own projects with 200 GitHub stars.<br>
+                <a href="#">Visit my GitHub Profile</a></p>
+            </div>
+        </section>
+
+        <!-- Education Section -->
+        <section class="education">
+            <h2>Education</h2>
+            <p>Graduated with a 3.76 out of 4 CGPA. Won Acme Hackathon. Organized 30 sessions.</p>
+            <p>Courses I took:</p>
+            <ul>
+                <li>Object Oriented Programming</li>
+                <li>Data Structures and Algorithms</li>
+                <li>Web Engineering</li>
+                <li>Artificial Intelligence</li>
+                <li>Human Computer Interaction</li>
+                <li>Database Management Systems</li>
+                <li>Discrete Mathematics</li>
+            </ul>
+        </section>
+
+        <!-- Reviews Section -->
+        <section class="reviews">
+            <h2>Reviews from my Teachers</h2>
+            <div class="review-card">
+                <p>John Doe was a brilliant student; always stood out with his assignments.</p>
+                <p><strong>Jane Doe</strong><br>Assistant Professor</p>
+            </div>
+            <div class="review-card">
+                <p>John Doe was a brilliant student; always stood out with his assignments.</p>
+                <p><strong>Jane Doe</strong><br>Assistant Professor</p>
+            </div>
+            <div class="review-card">
+                <p>John Doe was a brilliant student; always stood out with his assignments.</p>
+                <p><strong>Jane Doe</strong><br>Assistant Professor</p>
+            </div>
+        </section>
     </main>
 
+    <!-- Footer Section -->
     <footer>
-        <p>&copy; 2025 Your Name. All rights reserved.</p>
+        <p>&copy; all rights reserved 2025</p>
     </footer>
 </body>
 </html>
